@@ -44,6 +44,7 @@ We were unable to understand writing smart contracts using Rust programming lang
  * Listen to transaction logs
   * `solana logs` 
  * Build the on-chain program
+  * `$ npm run build:program-rust` 
   * `$ solana program deploy dist/program/solanaregistry.so`
  * Run the javascript client
   * `$ npm run start`
