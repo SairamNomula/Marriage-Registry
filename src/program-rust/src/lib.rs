@@ -22,9 +22,9 @@ entrypoint!(process_instruction);
 
 // Program entrypoint's implementation
 pub fn process_instruction(
-    program_id: &Pubkey, // Public key of the account the hello world program was loaded into
-    accounts: &[AccountInfo], // The account to say hello to
-    _instruction_data: &[u8], // Ignored, all helloworld instructions are hellos
+    program_id: &Pubkey, // Public key of the account the marriage registry program was loaded into
+    accounts: &[AccountInfo], // The account to register to
+    _instruction_data: &[u8], // Ignored, all registry instructions are done
 ) -> ProgramResult {
     msg!("Marriage Registry Rust program entrypoint");
 
