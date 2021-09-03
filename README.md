@@ -30,4 +30,24 @@ We were unable to understand writing smart contracts using Rust programming lang
  * CSS
  * Web3
 
+## How to run Project
+ * Clone the project using `git clone https://github.com/SairamNomula/Marriage-Registry.git`
+ * Make sure you have installed solana and rust
+ * Install all dependencies of the project
+  * `npm install`
+ * Set CLI config url to localhost cluster
+  * `$ solana config set --url localhost`
+ * Create CLI Keypair
+  * `$ solana-keygen new`
+ * Start a local Solana cluster
+  * `$ solana-test-validator` 
+ * Listen to transaction logs
+  * `solana logs` 
+ * Build the on-chain program
+  * `$ solana program deploy dist/program/solanaregistry.so`
+ * Run the javascript client
+  * `$ npm run start`
+ * Now open `index.html` in browser to download certificate
 
+## Future Enhancements
+Smart contracts have to be improved and integrated with frontend for real time applications
